@@ -1,6 +1,5 @@
 #include "raylib.h"
 
-
 int main(){
 	int width = 500;
 	int height = 500;
@@ -9,7 +8,8 @@ int main(){
 	SetTargetFPS(60);
 
 
-	while (!WindowShouldClose()){
+	while (!WindowShouldClose())
+	{
 		BeginDrawing();
 
 		ClearBackground(WHITE);
